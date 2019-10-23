@@ -1,0 +1,12 @@
+To add a new API call
+
+Add the API functions in api/
+
+Add the action ex. eventsActions.js
+Then add the actionType to actionTypes.js
+
+Then create the reducer and make sure the initialState.js includes the empty array
+
+then call the Load function in top level index.js
+
+Then can map the props to the container
